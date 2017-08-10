@@ -1,0 +1,35 @@
+/*General style sheets*/
+body{
+    background: #333;
+    margin: 0;
+    padding:0;
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.5
+}
+
+#content{
+    width:80%;
+    background: rgba(255,255,255,0.2);
+    margin: 1em auto;
+    padding: 1em 0.5em;
+}
+
+h1{
+    text-align: center;
+}
+
+/*Formatting the forms*/
+form input, form select, form textarea{
+    width: 80%;
+}
+
+form textarea{
+    font-family: "Courier 10 Pitch", serif;
+    font-size: 80%;
+}
+
+form fieldset{
+    padding: 1em;
+    margin-bottom:1.5em;
+}
