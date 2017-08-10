@@ -6,7 +6,7 @@
 <body>
 <div id="content">
     <h1>Der B24 Super sorter</h1>
-    <form action="sort.php">
+    <form action="sort.php" method="post">
         <fieldset>
             <legend> Sorting algorithm</legend>
             <select name="algorithm" title="Sorting algorithm">
